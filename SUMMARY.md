@@ -1,6 +1,7 @@
 # Table of contents
 
 * [환영합니다](README.md)
+* [고객센터 안내](main/help.md)
 
 ## 🤖 Team Bot
 
