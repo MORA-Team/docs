@@ -6,5 +6,5 @@
 ## 🤖 Team Bot
 
 * [Mora 봇](team-bot/mora/README.md)
-  * [명령어](team-bot/mora/undefined.md)
+  * [명령어](team-bot/mora/command.md)
 * [Mora Music](team-bot/mora-music.md)
