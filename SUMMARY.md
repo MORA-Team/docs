@@ -16,3 +16,4 @@
 ## 📱 API
 
 * [API 소개](api/main.md)
+* [API 가이드](api/guide.md)
