@@ -12,7 +12,7 @@ slug:
 * GET URL : 
 
 | Field | Type | Description |
-| ------ | ------ |
+| ------ | ------ | ------ |
 | code | String | 캡챠코드를 |
 
 {% code lineNumbers="true" %}
