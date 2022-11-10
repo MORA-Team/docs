@@ -12,3 +12,7 @@
     * [대시보드개발팀](team-bot/mora/Developer/dev_dashboard.md)
   * [명령어](team-bot/mora/command.md)
 * [Mora Music](team-bot/mora-music.md)
+
+## 📱 API
+
+* [API 소개](api/main.md)
