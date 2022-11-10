@@ -17,7 +17,7 @@
 
 * [API 소개](api/main.md)
 * [API 가이드](api/guide.md)
-  * [Version 1](api/guide/Version1/main.md)
-    * [⌨️ 타자번역](api/guide/Version1/타자번역.md)
-  * [Version 2](api/Version2/Version2/main.md)
-  * [Version 3](api/Version3/Version3/main.md)
+  * [Version 1](api/guide/version-1/README.md)
+    * [⌨️ 타자번역](api/guide/version-1/타자번역.md)
+  * [Version 2](api/guide/version-2.md)
+  * [Version 3](api/guide/version-3.md)
