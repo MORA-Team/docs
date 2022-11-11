@@ -23,5 +23,8 @@
     * [깃허브](api/guide/version1/깃허브.md)
     * [맞춤법검사](api/guide/version1/맞춤법검사.md)
     * [발음번역](api/guide/version1/발음번역.md)
+    * [랜덤숫자](api/guide/version1/랜덤숫자.md)
+    * [글자뒤집기](api/guide/version1/글자뒤집기.md)
+    * [URL단축](api/guide/version1/URL단축.md)
   * [Version 2](api/guide/version2/README.md)
   * [Version 3](api/guide/version3/README.md)
