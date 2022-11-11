@@ -16,6 +16,7 @@
 ## 📱 API
 
 * [API 소개](api/main.md)
+* [API Status](api/status.md)
 * [API 가이드](api/guide.md)
   * [Version 1](api/guide/version1/README.md)
     * [⌨️ 타자번역](api/guide/version1/타자번역.md)
