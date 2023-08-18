@@ -25,7 +25,14 @@
     * [뮤직기능](team-bot/mora/command/Music/README.md)
     * [유틸리티](team-bot/mora/command/Utilities/README.md)
     * [관리기능](team-bot/mora/command/Management/README.md)
-* [Mora Music](team-bot/mora-music.md)
+* [Mora Music](team-bot/Music/README.md)
+* [도박봇](team-bot/Gambling/README.md)
+* [추첨봇](team-bot/GiveWay/README.md)
+* [레벨봇](team-bot/Level/README.md)
+* [로그봇](team-bot/Logger/README.md)
+* [관리봇](team-bot/Manager/README.md)
+* [보안봇](team-bot/Security/README.md)
+* [상점봇](team-bot/Shop/README.md)
 
 ## 📱 API
 
