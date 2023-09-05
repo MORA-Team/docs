@@ -38,6 +38,8 @@
 
 * [API 소개](api/main.md)
 * [API Status](api/status.md)
+* [API 업데이트 소식](api/updates/README.md)
+  * [2023년 9월 5일](api/updates/230905.md)
 * [API 가이드](api/guide.md)
   * [Version 1](api/guide/version1/README.md)
     * [⌨️ 타자번역](api/guide/version1/TaT.md)
