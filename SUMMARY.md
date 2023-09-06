@@ -60,7 +60,7 @@
     * [가사](api/guide/version3/lyrics.md)
     * [NSFW](api/guide/version3/NSFW.md)
 
+## 📩 새로운 소식 <a href="#news" id="news"></a>
 
-## 📩 새로운 소식
-* [API 업데이트 소식](updates/README.md)
-  * [2023년 9월 5일](updates/230905.md)
+* [API 업데이트 소식](news/updates/README.md)
+  * [2023년 9월 5일](news/updates/230905.md)
