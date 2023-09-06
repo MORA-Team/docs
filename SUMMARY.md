@@ -38,9 +38,7 @@
 
 * [API 소개](api/main.md)
 * [API Status](api/status.md)
-* [API 업데이트 소식](api/updates/README.md)
-  * [2023년 9월 5일](api/updates/230905.md)
-* [API 가이드](api/guide.md)
+* [API 가이드](api/guide/README.md)
   * [Version 1](api/guide/version1/README.md)
     * [⌨️ 타자번역](api/guide/version1/TaT.md)
     * [🔒 캡챠](api/guide/version1/CAPTCHA.md)
@@ -61,3 +59,8 @@
   * [Version 3](api/guide/version3/README.md)
     * [가사](api/guide/version3/lyrics.md)
     * [NSFW](api/guide/version3/NSFW.md)
+
+
+## 📩 새로운 소식
+* [API 업데이트 소식](updates/README.md)
+  * [2023년 9월 5일](updates/230905.md)
