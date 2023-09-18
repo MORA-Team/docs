@@ -53,7 +53,6 @@
     * [깃허브](api/guide/version2/Github.md)
     * [날씨](api/guide/version2/weather.md)
     * [랜덤일러스트](api/guide/version2/RandomIllustration.md)
-    * [자동응답](api/guide/version2/Automaticresponse.md)
     * [캡챠](api/guide/version2/CAPTCHA.md)
     * [QR코드](api/guide/version2/QRCode.md)
   * [Version 3](api/guide/version3/README.md)
@@ -63,4 +62,5 @@
 ## 📩 새로운 소식 <a href="#news" id="news"></a>
 
 * [API 업데이트 소식](news/updates/README.md)
+  * [2023년 9월 18일](news/updates/230918.md)
   * [2023년 9월 5일](news/updates/230905.md)

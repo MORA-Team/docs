@@ -8,6 +8,7 @@ description: Mora Update 소식을 알수 있는 공간입니다.
 ### [ 업데이트 예정 기능 ]
 - API 엔드포인트 수정 (api.mora-bot.kr -> mora-bot.kr/api)
 - V2 Github API 수정
+- API Guide 직관화
 
 <details>
 <summary>📢 업데이트 관련하여 알려드립니다</summary>
@@ -22,4 +23,5 @@ description: Mora Update 소식을 알수 있는 공간입니다.
 ### [ 2023년 업데이트 내역 ]
 | 날짜 | 업데이트 내역 |
 | - | - |
+| [2023년 9월 18일](https://docs.mora-bot.kr/updates/230918) | API 응답 방식 변경 및 노출 변경 |
 | [2023년 9월 5일](https://docs.mora-bot.kr/updates/230905) | API 스테이블 코드 추가 및 수정 |
