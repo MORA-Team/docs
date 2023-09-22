@@ -51,7 +51,7 @@ description: Mora Api 타자번역 입니다.
 ```javascript
 // node-fetch
 const fetch = require('node-fetch')
-fetch(`https://api.mora-bot.kr/v1/en2ko?text=${encodeURI(`택스트`)}`)
+fetch(`https://mora-bot.kr/api/v1/en2ko?text=${encodeURI(`택스트`)}`)
     .then(res => res.json())
     .then(json => {
         console.log(json)
@@ -60,7 +60,7 @@ fetch(`https://api.mora-bot.kr/v1/en2ko?text=${encodeURI(`택스트`)}`)
     });
 
 // request
-let api_url = `https://api.mora-bot.kr/v1/en2ko?text=${encodeURI(`텍스트`)}`
+let api_url = `https://mora-bot.kr/api/v1/en2ko?text=${encodeURI(`텍스트`)}`
 const request = require('request');
 let options = {
     url: api_url
@@ -83,7 +83,7 @@ request.get(options, function (error, response, body) {
 ```python
 import requests
 
-response = requests.get("http://api.mora-bot.kr/v1/en2ko?text=[텍스트]")
+response = requests.get("http://mora-bot.kr/api/v1/en2ko?text=[텍스트]")
 result = response.json()
 
 if response.status == 200:
@@ -121,7 +121,7 @@ else:
 ```javascript
 // node-fetch
 const fetch = require('node-fetch')
-fetch(`https://api.mora-bot.kr/v1/ko2en?text=${encodeURI(`텍스트`)}`)
+fetch(`https://mora-bot.kr/api/v1/ko2en?text=${encodeURI(`텍스트`)}`)
     .then(res => res.json())
     .then(json => {
         console.log(json
@@ -130,7 +130,7 @@ fetch(`https://api.mora-bot.kr/v1/ko2en?text=${encodeURI(`텍스트`)}`)
     });
 
 // request
-let api_url = `https://api.mora-bot.kr/v1/ko2en?text=${encodeURI(`텍스트`)}`
+let api_url = `https://mora-bot.kr/api/v1/ko2en?text=${encodeURI(`텍스트`)}`
 const request = require('request');
 let options = {
     url: api_url
@@ -153,7 +153,7 @@ request.get(options, function (error, response, body) {
 ```python
 import requests
 
-response = requests.get("https://api.mora-bot.kr/v1/ko2en?text=[텍스트]")
+response = requests.get("https://mora-bot.kr/api/v1/ko2en?text=[텍스트]")
 result = response.json()
 
 if response.status == 200:

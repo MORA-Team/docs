@@ -9,7 +9,7 @@ slug: korcen
 
 * API는 모두 GET 메서드를 사용합니다
 
-* GET URL : https://api.mora-bot.kr/v2/korcen?text=[조회할 단어]
+* GET URL : https://mora-bot.kr/api/v2/korcen?text=[조회할 단어]
 
 | Field | Type | Description |
 | ------ | ------ | ------ |
@@ -31,7 +31,7 @@ slug: korcen
 ```javascript
 // node-fetch
 const fetch = require('node-fetch')
-fetch(`https://api.mora-bot.kr/v2/korcen?text=[조회할 단어]`)
+fetch(`https://mora-bot.kr/api/v2/korcen?text=[조회할 단어]`)
     .then(res => res.json())
     .then(json => {
         console.log(json)
@@ -40,7 +40,7 @@ fetch(`https://api.mora-bot.kr/v2/korcen?text=[조회할 단어]`)
 // request
 const request = require('request');
 let options = {
-    url: `https://api.mora-bot.kr/v2/korcen?text=[조회할 단어]`
+    url: `https://mora-bot.kr/api/v2/korcen?text=[조회할 단어]`
 }
 request.get(options, function (error, response, body) {
     if (!error && response.status == 200) {
@@ -59,7 +59,7 @@ request.get(options, function (error, response, body) {
 ```python
 import requests
 
-response = requests.get("https://api.mora-bot.kr/v2/korcen?text=[조회할 단어]")
+response = requests.get("https://mora-bot.kr/api/v2/korcen?text=[조회할 단어]")
 result = response.json()
 
 if response.status_code == 200:

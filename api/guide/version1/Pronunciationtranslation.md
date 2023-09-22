@@ -9,7 +9,7 @@ slug: hangulify
 
 * API는 모두 GET 메서드를 사용합니다
 
-* GET URL : https://api.mora-bot.kr/v1/hangulify?text={검사할 문장}
+* GET URL : https://mora-bot.kr/api/v1/hangulify?text={검사할 문장}
 
 | Field | Type | Description |
 | ------ | ------ | ------ |
@@ -36,7 +36,7 @@ slug: hangulify
 // node-fetch
 let text = '한국어로 발음 번역할 말';
 const fetch = require('node-fetch')
-fetch(`https://api.mora-bot.kr/v1/hangulify?text=${encodeURI(text)}`)
+fetch(`https://mora-bot.kr/api/v1/hangulify?text=${encodeURI(text)}`)
     .then(res => res.json())
     .then(json => {
         console.log(json)
@@ -46,7 +46,7 @@ fetch(`https://api.mora-bot.kr/v1/hangulify?text=${encodeURI(text)}`)
 
 // request
 let text = '한국어로 발음 번역할 말'
-let api_url = `https://api.mora-bot.kr/v1/hangulify?text=${encodeURI(text)}`
+let api_url = `https://mora-bot.kr/api/v1/hangulify?text=${encodeURI(text)}`
 const request = require('request');
 let options = {
     url: api_url
@@ -69,7 +69,7 @@ request.get(options, function (error, response, body) {
 ```python
 import requests
 
-response = requests.get("https://api.mora-bot.kr/v1/hangulify?text=Juan")
+response = requests.get("https://mora-bot.kr/api/v1/hangulify?text=Juan")
 result = response.json()
 
 if response.status_code == 200:

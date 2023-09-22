@@ -9,7 +9,7 @@ slug: Reverse Text
 
 * API는 모두 GET 메서드를 사용합니다
 
-* GET URL : https://api.mora-bot.kr/v1/reverse?text={뒤집을 글자}
+* GET URL : https://mora-bot.kr/api/v1/reverse?text={뒤집을 글자}
 
 | Field | Type | Description |
 | ------ | ------ | ------ |
@@ -35,7 +35,7 @@ slug: Reverse Text
 // node-fetch
 let text = '뒤집을 텍스트';
 const fetch = require('node-fetch')
-fetch(`https://api.mora-bot.kr/v1/reverse?text=${encodeURI(text)}`)
+fetch(`https://mora-bot.kr/api/v1/reverse?text=${encodeURI(text)}`)
     .then(res => res.json())
     .then(json => {
         console.log(json)
@@ -45,7 +45,7 @@ fetch(`https://api.mora-bot.kr/v1/reverse?text=${encodeURI(text)}`)
 
 // request
 let text = '뒤집을 텍스트'
-let api_url = `https://api.mora-bot.kr/v1/reverse?text=${encodeURI(text)}`
+let api_url = `https://mora-bot.kr/api/v1/reverse?text=${encodeURI(text)}`
 const request = require('request');
 let options = {
     url: api_url
@@ -68,7 +68,7 @@ request.get(options, function (error, response, body) {
 ```python
 import requests
 
-response = requests.get("https://api.mora-bot.kr/v1/reverse?text=ThankYou")
+response = requests.get("https://mora-bot.kr/api/v1/reverse?text=ThankYou")
 result = response.json()
 
 if response.status == 200:

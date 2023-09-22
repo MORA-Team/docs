@@ -9,7 +9,7 @@ slug: qrcode
 
 * API는 모두 GET 메서드를 사용합니다
 
-* GET URL : https://api.mora-bot.kr/v2/qr?url=[링크]
+* GET URL : https://mora-bot.kr/api/v2/qr?url=[링크]
 
 | Field | Type | Description |
 | ------ | ------ | ------ |
@@ -32,7 +32,7 @@ slug: qrcode
 ```javascript
 // node-fetch
 const fetch = require('node-fetch')
-fetch(`https://api.mora-bot.kr/v2/qr?url=[링크]`)
+fetch(`https://mora-bot.kr/api/v2/qr?url=[링크]`)
     .then(res => res.json())
     .then(json => {
         console.log(json)
@@ -41,7 +41,7 @@ fetch(`https://api.mora-bot.kr/v2/qr?url=[링크]`)
 // request
 const request = require('request');
 let options = {
-    url: `https://api.mora-bot.kr/v2/qr?url=[링크]`
+    url: `https://mora-bot.kr/api/v2/qr?url=[링크]`
 }
 request.get(options, function (error, response, body) {
     if (!error && response.status == 200) {
@@ -60,7 +60,7 @@ request.get(options, function (error, response, body) {
 ```python
 import requests
 
-response = requests.get("https://api.mora-bot.kr/v2/qr?url=[링크]")
+response = requests.get("https://mora-bot.kr/api/v2/qr?url=[링크]")
 result = response.json()
 
 if response.status_code == 200:

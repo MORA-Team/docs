@@ -22,4 +22,17 @@ description: Mora Update 소식을 알수 있는 공간입니다.
 
 ### \[ 2023년 업데이트 내역 ]
 
-<table><thead><tr><th width="193">날짜</th><th>업데이트 내역</th></tr></thead><tbody><tr><td><a href="230918.md">2023년 9월 23일</a></td><td>API Base URL 수정</td></tr><tr><td><a href="230918-1.md">2023년 9월 18일</a></td><td>API 응답 방식 변경 및 노출 변경</td></tr><tr><td><a href="https://docs.mora-bot.kr/updates/230905">2023년 9월 5일</a></td><td>API 스테이블 코드 추가 및 수정</td></tr></tbody></table>
+<table>
+  <thead><tr><th width="193">날짜</th><th>업데이트 내역</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><a href="230923.md">2023년 9월 23일</a></td><td>API Base URL 수정</td>
+    </tr>
+    <tr>
+      <td><a href="230918.md">2023년 9월 18일</a></td><td>API 응답 방식 변경 및 노출 변경</td>
+    </tr>
+    <tr>
+      <td><a href="230905">2023년 9월 5일</a></td><td>API 스테이블 코드 추가 및 수정</td>
+    </tr>
+  </tbody>
+</table>

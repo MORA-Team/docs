@@ -9,7 +9,7 @@ slug: github
 
 * API는 모두 GET 메서드를 사용합니다
 
-* GET URL : https://api.mora-bot.kr/v2/github/[조회할유저 닉네임]
+* GET URL : https://mora-bot.kr/api/v2/github?username=[조회할유저 닉네임]
 
 | Field | Type | Description |
 | ------ | ------ | ------ |
@@ -67,7 +67,7 @@ slug: github
 ```javascript
 // node-fetch
 const fetch = require('node-fetch')
-fetch(`https://api.mora-bot.kr/v2/github/[조회할유저 닉네임]`)
+fetch(`https://mora-bot.kr/api/v2/github?username=[조회할유저 닉네임]`)
     .then(res => res.json())
     .then(json => {
         console.log(json)
@@ -76,7 +76,7 @@ fetch(`https://api.mora-bot.kr/v2/github/[조회할유저 닉네임]`)
 // request
 const request = require('request');
 let options = {
-    url: `https://api.mora-bot.kr/v2/github/[조회할유저 닉네임]`
+    url: `https://mora-bot.kr/api/v2/github?username=[조회할유저 닉네임]`
 }
 request.get(options, function (error, response, body) {
     if (!error && response.status == 200) {
@@ -95,7 +95,7 @@ request.get(options, function (error, response, body) {
 ```python
 import requests
 
-response = requests.get("https://api.mora-bot.kr/v2/github/[조회할유저 닉네임]")
+response = requests.get("https://mora-bot.kr/api/v2/github?username=[조회할유저 닉네임]")
 result = response.json()
 
 if response.status_code == 200:

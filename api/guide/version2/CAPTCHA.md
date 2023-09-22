@@ -9,7 +9,7 @@ slug: Captcha
 
 * API는 모두 GET 메서드를 사용합니다
 
-* GET URL : https://api.mora-bot.kr/v2/captcha
+* GET URL : https://mora-bot.kr/api/v2/captcha
 
 | Field | Type | Description |
 | ------ | ------ | ------ |
@@ -22,7 +22,7 @@ slug: Captcha
 {
     "status": 200,
     "Description": "캡챠가 정상적으로 호출되었습니다.",
-    "img_url": "http://api.mora-bot.kr/v2/captcha/IuVRKhvw6v",
+    "img_url": "http://mora-bot.kr/api/v2/captcha/IuVRKhvw6v",
     "code": "680747"
 }
 ```
@@ -34,7 +34,7 @@ slug: Captcha
 ```javascript
 // node-fetch
 const fetch = require('node-fetch')
-fetch(`https://api.mora-bot.kr/v2/captcha`)
+fetch(`https://mora-bot.kr/api/v2/captcha`)
     .then(res => res.json())
     .then(json => {
         console.log(json)
@@ -43,7 +43,7 @@ fetch(`https://api.mora-bot.kr/v2/captcha`)
 // request
 const request = require('request');
 let options = {
-    url: `https://api.mora-bot.kr/v2/captcha`
+    url: `https://mora-bot.kr/api/v2/captcha`
 }
 request.get(options, function (error, response, body) {
     if (!error && response.status == 200) {
@@ -62,7 +62,7 @@ request.get(options, function (error, response, body) {
 ```python
 import requests
 
-response = requests.get("https://api.mora-bot.kr/v2/captcha")
+response = requests.get("https://mora-bot.kr/api/v2/captcha")
 result = response.json()
 
 if response.status_code == 200:

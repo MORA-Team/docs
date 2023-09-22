@@ -34,7 +34,7 @@ description: Mora Api 캡챠 입니다.
 ```javascript
 // node-fetch
 const fetch = require('node-fetch')
-fetch('https://api.mora-bot.kr/v1/captcha')
+fetch('https://mora-bot.kr/api/v1/captcha')
     .then(res => res.json())
     .then(json => {
         let imgurl = json.url;
@@ -43,7 +43,7 @@ fetch('https://api.mora-bot.kr/v1/captcha')
     });
 
 // request
-let api_url = 'https://api.mora-bot.kr/v1/captcha'
+let api_url = 'https://mora-bot.kr/api/v1/captcha'
 const request = require('request');
 let options = {
     url: api_url
@@ -66,7 +66,7 @@ request.get(options, function (error, response, body) {
 ```python
 import requests
 
-response = requests.get("https://api.mora-bot.kr/v1/captcha")
+response = requests.get("https://mora-bot.kr/api/v1/captcha")
 result = response.json()
 
 if response.status == 200:

@@ -9,7 +9,7 @@ slug: Random Number
 
 * API는 모두 GET 메서드를 사용합니다
 
-* GET URL : https://api.mora-bot.kr/v1/randomnumber?min={최소값}&max=${최대값}
+* GET URL : https://mora-bot.kr/api/v1/randomnumber?min={최소값}&max=${최대값}
 
 | Field | Type | Description |
 | ------ | ------ | ------ |
@@ -40,7 +40,7 @@ slug: Random Number
 let min = 0;
 let max = 10;
 const fetch = require('node-fetch')
-fetch(`https://api.mora-bot.kr/v1/randomnumber?min=${min}&max=${max}`)
+fetch(`https://mora-bot.kr/api/v1/randomnumber?min=${min}&max=${max}`)
     .then(res => res.json())
     .then(json => {
         console.log(json)
@@ -52,7 +52,7 @@ fetch(`https://api.mora-bot.kr/v1/randomnumber?min=${min}&max=${max}`)
 // request
 let min = 0;
 let max = 10;
-let api_url = `https://api.mora-bot.kr/v1/randomnumber?min=${min}&max=${max}`
+let api_url = `https://mora-bot.kr/api/v1/randomnumber?min=${min}&max=${max}`
 const request = require('request');
 let options = {
     url: api_url
@@ -76,7 +76,7 @@ request.get(options, function (error, response, body) {
 ```python
 import requests
 
-response = requests.get("https://api.mora-bot.kr/v1/randomnumber?min=0&max=10")
+response = requests.get("https://mora-bot.kr/api/v1/randomnumber?min=0&max=10")
 result = response.json()
 
 if response.status == 200:
