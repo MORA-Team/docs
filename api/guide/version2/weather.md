@@ -9,7 +9,7 @@ slug: Weather
 
 * API는 모두 GET 메서드를 사용합니다
 
-* GET URL : https://api.mora-bot.kr/v2/weather?area=[지역]
+* GET URL : https://mora-bot.kr/api/v2/weather?area=[지역]
 
 | Field | Type | Description |
 | ------ | ------ | ------ |
@@ -40,7 +40,7 @@ slug: Weather
 ```javascript
 // node-fetch
 const fetch = require('node-fetch')
-fetch(`https://api.mora-bot.kr/v2/weather?area=[지역]`)
+fetch(`https://mora-bot.kr/api/v2/weather?area=[지역]`)
     .then(res => res.json())
     .then(json => {
         console.log(json)
@@ -49,7 +49,7 @@ fetch(`https://api.mora-bot.kr/v2/weather?area=[지역]`)
 // request
 const request = require('request');
 let options = {
-    url: `https://api.mora-bot.kr/v2/weather?area=[지역]`
+    url: `https://mora-bot.kr/api/v2/weather?area=[지역]`
 }
 request.get(options, function (error, response, body) {
     if (!error && response.status == 200) {
@@ -68,7 +68,7 @@ request.get(options, function (error, response, body) {
 ```python
 import requests
 
-response = requests.get("https://api.mora-bot.kr/v2/weather?area=[지역]")
+response = requests.get("https://mora-bot.kr/api/v2/weather?area=[지역]")
 result = response.json()
 
 if response.status_code == 200:

@@ -62,6 +62,6 @@
 ## 📩 새로운 소식 <a href="#news" id="news"></a>
 
 * [업데이트 소식](news/updates/README.md)
-  * [2023년 9월 23일](news/updates/230918.md)
-  * [2023년 9월 18일](news/updates/230918-1.md)
+  * [2023년 9월 23일](news/updates/230923.md)
+  * [2023년 9월 18일](news/updates/230918.md)
   * [2023년 9월 5일](news/updates/230905.md)

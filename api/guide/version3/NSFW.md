@@ -11,7 +11,7 @@ slug: nsfw
 
 * waifu 에 nsfw가 사용되었습니다.
 
-* GET URL : https://api.mora-bot.kr/v3/nsfw
+* GET URL : https://mora-bot.kr/api/v3/nsfw
 
 | Field | Type | Description |
 | ------ | ------ | ------ |
@@ -33,7 +33,7 @@ slug: nsfw
 ```javascript
 // node-fetch
 const fetch = require('node-fetch')
-fetch(`https://api.mora-bot.kr/v3/nsfw`)
+fetch(`https://mora-bot.kr/api/v3/nsfw`)
     .then(res => res.json())
     .then(json => {
         console.log(json)
@@ -42,7 +42,7 @@ fetch(`https://api.mora-bot.kr/v3/nsfw`)
 // request
 const request = require('request');
 let options = {
-    url: `https://api.mora-bot.kr/v3/nsfw`
+    url: `https://mora-bot.kr/api/v3/nsfw`
 }
 request.get(options, function (error, response, body) {
     if (!error && response.status == 200) {
@@ -61,7 +61,7 @@ request.get(options, function (error, response, body) {
 ```python
 import requests
 
-response = requests.get("https://api.mora-bot.kr/v3/nsfw")
+response = requests.get("https://mora-bot.kr/api/v3/nsfw")
 result = response.json()
 
 if response.status_code == 200:

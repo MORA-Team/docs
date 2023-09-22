@@ -9,7 +9,7 @@ slug: illustration
 
 * API는 모두 GET 메서드를 사용합니다
 
-* GET URL : https://api.mora-bot.kr/v2/iIller
+* GET URL : https://mora-bot.kr/api/v2/iIller
 
 ### NodeJS
 
@@ -17,7 +17,7 @@ slug: illustration
 ```javascript
 // node-fetch
 const fetch = require('node-fetch')
-fetch(`https://api.mora-bot.kr/v2/iIller`)
+fetch(`https://mora-bot.kr/api/v2/iIller`)
     .then(res => res.json())
     .then(json => {
         console.log(json)
@@ -26,7 +26,7 @@ fetch(`https://api.mora-bot.kr/v2/iIller`)
 // request
 const request = require('request');
 let options = {
-    url: `https://api.mora-bot.kr/v2/iIller`
+    url: `https://mora-bot.kr/api/v2/iIller`
 }
 request.get(options, function (error, response, body) {
     if (!error && response.status == 200) {
@@ -45,7 +45,7 @@ request.get(options, function (error, response, body) {
 ```python
 import requests
 
-response = requests.get("https://api.mora-bot.kr/v2/iIller")
+response = requests.get("https://mora-bot.kr/api/v2/iIller")
 result = response.json()
 
 if response.status_code == 200:

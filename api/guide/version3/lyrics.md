@@ -9,7 +9,7 @@ slug: Lyrics
 
 * API는 모두 GET 메서드를 사용합니다
 
-* GET URL : https://api.mora-bot.kr/v3/lyrics/[가수]/[제목]
+* GET URL : https://mora-bot.kr/api/v3/lyrics?singer=[가수]&title=[제목]
 
 | Field | Type | Description |
 | ------ | ------ | ------ |
@@ -35,7 +35,7 @@ slug: Lyrics
 ```javascript
 // node-fetch
 const fetch = require('node-fetch')
-fetch(`https://api.mora-bot.kr/v3/lyrics/[가수]/[제목]`)
+fetch(`https://mora-bot.kr/api/v3/lyrics?singer=[가수]&title=[제목]`)
     .then(res => res.json())
     .then(json => {
         console.log(json)
@@ -44,7 +44,7 @@ fetch(`https://api.mora-bot.kr/v3/lyrics/[가수]/[제목]`)
 // request
 const request = require('request');
 let options = {
-    url: `https://api.mora-bot.kr/v3/lyrics/[가수]/[제목]`
+    url: `https://mora-bot.kr/api/v3/lyrics?singer=[가수]&title=[제목]`
 }
 request.get(options, function (error, response, body) {
     if (!error && response.status == 200) {
@@ -63,7 +63,7 @@ request.get(options, function (error, response, body) {
 ```python
 import requests
 
-response = requests.get("https://api.mora-bot.kr/v3/lyrics/[가수]/[제목]")
+response = requests.get("https://mora-bot.kr/api/v3/lyrics?singer=[가수]&title=[제목]")
 result = response.json()
 
 if response.status_code == 200:

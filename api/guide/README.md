@@ -6,11 +6,11 @@ description: Mora Api 가이드 입니다.
 
 ## 일반사용자 엔드포인트
 
-* https://api.mora-bot.kr/
+* https://mora-bot.kr/api/
 
 ## 프리미엄사용자 엔드포인트
 
-* https://api.mora-bot.kr/Premium/
+* https://mora-bot.kr/api/Premium/
 
 
 ### 호출 리밋

@@ -9,7 +9,7 @@ slug: grammar-check
 
 * API는 모두 GET 메서드를 사용합니다
 
-* GET URL : https://api.mora-bot.kr/v1/grammar?string={검사할 문장}
+* GET URL : https://mora-bot.kr/api/v1/grammar?string={검사할 문장}
 
 | Field | Type | Description |
 | ------ | ------ | ------ |
@@ -39,7 +39,7 @@ slug: grammar-check
 // node-fetch
 let text = '검사할 문장'
 const fetch = require('node-fetch')
-fetch(`https://api.mora-bot.kr/v1/grammar?string=${encodeURI(text)}`)
+fetch(`https://mora-bot.kr/api/v1/grammar?string=${encodeURI(text)}`)
     .then(res => res.json())
     .then(json => {
         console.log(`라이선스 : ${json.license}`)
@@ -51,7 +51,7 @@ fetch(`https://api.mora-bot.kr/v1/grammar?string=${encodeURI(text)}`)
 
 // request
 let text = '검사할 문장'
-let api_url = `https://api.mora-bot.kr/v1/grammar?string=${encodeURI(text)}`
+let api_url = `https://mora-bot.kr/api/v1/grammar?string=${encodeURI(text)}`
 const request = require('request');
 let options = {
     url: api_url
@@ -77,7 +77,7 @@ request.get(options, function (error, response, body) {
 ```python
 import requests
 
-response = requests.get("https:/api.mora-bot.kr/v1/grammar?string=검사할문장")
+response = requests.get("https:/mora-bot.kr/api/v1/grammar?string=검사할문장")
 result = response.json()
 
 if response.status == 200:

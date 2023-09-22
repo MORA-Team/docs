@@ -9,7 +9,7 @@ slug: Shorten
 
 * API는 모두 GET 메서드를 사용합니다
 
-* GET URL : https://api.mora-bot.kr/v1/shorten?url={단축할 URL}
+* GET URL : https://mora-bot.kr/api/v1/shorten?url={단축할 URL}
 
 | Field | Type | Description |
 | ------ | ------ | ------ |
@@ -38,7 +38,7 @@ slug: Shorten
 // node-fetch
 let link = '단축할 URL'
 const fetch = require('node-fetch')
-fetch(`https://api.mora-bot.kr/v1/shorten?url=${encodeURI(link)}`)
+fetch(`https://mora-bot.kr/api/v1/shorten?url=${encodeURI(link)}`)
     .then(res => res.json())
     .then(json => {
         console.log(`원래 링크 : ${json.original}`)
@@ -48,7 +48,7 @@ fetch(`https://api.mora-bot.kr/v1/shorten?url=${encodeURI(link)}`)
 
 // request
 let link = '단축할 URL'
-let api_url = `https://api.mora-bot.kr/v1/shorten?url=${encodeURI(link)}`
+let api_url = `https://mora-bot.kr/api/v1/shorten?url=${encodeURI(link)}`
 const request = require('request');
 let options = {
     url: api_url
@@ -72,7 +72,7 @@ request.get(options, function (error, response, body) {
 ```python
 import requests
 
-response = requests.get("https://api.mora-bot.kr/v1/shorten?url=https://mora-bot.kr")
+response = requests.get("https://mora-bot.kr/api/v1/shorten?url=https://mora-bot.kr")
 result = response.json()
 
 if response.status == 200:
