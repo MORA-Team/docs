@@ -32,7 +32,7 @@ description: Mora Update 소식을 알수 있는 공간입니다.
       <td><a href="230918.md">2023년 9월 18일</a></td><td>API 응답 방식 변경 및 노출 변경</td>
     </tr>
     <tr>
-      <td><a href="230905">2023년 9월 5일</a></td><td>API 스테이블 코드 추가 및 수정</td>
+      <td><a href="230905.md">2023년 9월 5일</a></td><td>API 스테이블 코드 추가 및 수정</td>
     </tr>
   </tbody>
 </table>
