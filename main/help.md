@@ -1,5 +1,16 @@
 ---
 description: Mora Team 문의방법이에요!
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # 고객센터 안내
@@ -20,7 +31,7 @@ description: Mora Team 문의방법이에요!
 
 {% tabs %}
 {% tab title="카카오톡으로 문의" %}
-\[Mora의  카카오톡채널]\(<[http://pf.kakao.com/\_xlIxeVG](http://pf.kakao.com/\_xlIxeVG)>)을 추가하시면 카카오톡으로 빠른 챗봇 상담 또는 채팅상담을 시작하실 수 있습니다.\
+\[Mora의  카카오톡채널]\(<[http://pf.kakao.com/\_xlIxeVG](http://pf.kakao.com/\_xlIxeVG)>)을 추가하시면 카카오톡으로 빠른 챗봇 상담 또는 채팅상담을 시작하실 수 있습니다. \
 \
 모바일에서 편리하게 묻고 빠르게 답변을 받아보세요.
 

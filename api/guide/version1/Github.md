@@ -1,6 +1,6 @@
 ---
-description: Mora Api 깃허브 입니다.
 slug: Github
+description: Mora Api 깃허브 입니다.
 ---
 
 # 깃허브
@@ -8,18 +8,17 @@ slug: Github
 ### Templates
 
 * API는 모두 GET 메서드를 사용합니다
+* GET URL : https://mora-bot.kr/api/v1/github?username=\[닉네임]
 
-* GET URL : https://api.mora-bot.kr/v1/github?username=[닉네임]
-
-| Field | Type | Description |
-| ------ | ------ | ------ |
-| name | String | 호출된 계정의 이름 |
-| nickname | String | 호출된 계정의 닉네임 |
-| url | String | 호출된 계정의 링크 |
-| introduction | String | 호출된 계정의 소개 |
-| avatarurl | String | 호출된 계정의 아바타 URL |
-| creation | String | 호출된 계정의 계정생성일 |
-| update | String | 호출된 계정의 마지막 업데이트일 |
+| Field        | Type   | Description       |
+| ------------ | ------ | ----------------- |
+| name         | String | 호출된 계정의 이름        |
+| nickname     | String | 호출된 계정의 닉네임       |
+| url          | String | 호출된 계정의 링크        |
+| introduction | String | 호출된 계정의 소개        |
+| avatarurl    | String | 호출된 계정의 아바타 URL   |
+| creation     | String | 호출된 계정의 계정생성일     |
+| update       | String | 호출된 계정의 마지막 업데이트일 |
 
 {% code lineNumbers="true" %}
 ```json

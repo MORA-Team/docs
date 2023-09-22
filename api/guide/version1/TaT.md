@@ -13,27 +13,37 @@ description: Mora Api 타자번역 입니다.
 
 * API는 모두 GET 메서드를 사용합니다
 
-## 영어 타자 → 한글 타자 <a href="#undefined" id="undefined"></a>
+## 영어 타자 → 한글 타자 <a href="#en2ko" id="en2ko"></a>
 
-* GET URL : https://api.mora-bot.kr/v1/en2ko?text={한글 타자로 변환할 문장}
+{% swagger method="get" path="/v1/en2ko?text={한글 타자로 변환할 문장}" baseUrl="https://mora-bot.kr/api" summary="" expanded="false" %}
+{% swagger-description %}
 
-| Field | Type | Description |
-| ------ | ------ | ------ |
-| origin | String | 호출된 문장 |
-| result | String | 변환된 문장 |
+{% endswagger-description %}
 
+{% swagger-parameter in="query" type="String" name="text" required="true" %}
+한글 타자로 변환할 문장
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="" %}
 {% code lineNumbers="true" %}
 ```json
 // 응답 내용
 {
-    "license":"inko module used https://www.npmjs.com/package/inko",
-    "status":200,
-    "origin":"ahfk",
-    "result":"모라",
-    "success":true
+    "license": "inko module used https://www.npmjs.com/package/inko",
+    "status": 200,
+    "origin": "ahfk",
+    "result": "모라",
+    "success": true
 }
 ```
 {% endcode %}
+{% endswagger-response %}
+{% endswagger %}
+
+| Field  | Type   | Description |
+| ------ | ------ | ----------- |
+| origin | String | 호출된 문장      |
+| result | String | 변환된 문장      |
 
 ### NodeJS
 
@@ -85,12 +95,12 @@ else:
 
 ## 한글 발음 → 영어 발음 <a href="#undefined" id="undefined"></a>
 
-* GET URL : https://api.mora-bot.kr/v1/ko2en?text={영어 타자로 변환할 문장}
+* GET URL : https://mora-bot.kr/api/v1/ko2en?text={영어 타자로 변환할 문장}
 
-| Field | Type | Description |
-| ------ | ------ | ------ |
-| origin | String | 호출된 문장 |
-| result | String | 변환된 문장 |
+| Field  | Type   | Description |
+| ------ | ------ | ----------- |
+| origin | String | 호출된 문장      |
+| result | String | 변환된 문장      |
 
 {% code lineNumbers="true" %}
 ```json

@@ -1,6 +1,6 @@
 ---
-description: Mora Api 캡챠 입니다.
 slug: Captcha
+description: Mora Api 캡챠 입니다.
 ---
 
 # 🔒 캡챠
@@ -8,13 +8,12 @@ slug: Captcha
 ### Templates
 
 * API는 모두 GET 메서드를 사용합니다
+* GET URL : https://mora-bot.kr/api/v1/captcha
 
-* GET URL : https://api.mora-bot.kr/v1/captcha
-
-| Field | Type | Description |
-| ------ | ------ | ------ |
-| url | String | 이미지 주소를 반환한 URL |
-| code | String | 캡챠코드를 반환 |
+| Field | Type   | Description     |
+| ----- | ------ | --------------- |
+| url   | String | 이미지 주소를 반환한 URL |
+| code  | String | 캡챠코드를 반환        |
 
 {% code lineNumbers="true" %}
 ```json
